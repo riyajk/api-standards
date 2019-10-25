@@ -3,8 +3,8 @@
 
 ### API Resources
 
-### 1. get all todo
-## GET /todo/
+## 1. get all todo
+### GET /todo/
 Example: http://localhost:8085/todo
 
 Response body:
@@ -50,8 +50,8 @@ Response body:
     }
 
 
-### 3. create single todo
-## POST /todo
+## 3. create single todo
+### POST /todo
 
 Example: Create todo :  http://localhost:8085/todo
 
@@ -69,8 +69,8 @@ Response body:
        }
    }
    
-### 4. update single todo
-## PUT /todo/:todoId
+## 4. update single todo
+### PUT /todo/:todoId
 
 Example: Update todo :  http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
@@ -79,8 +79,8 @@ Response body:
     {"result":"success"}
 
 
-### 5. Delete single todo
-## DELETE /todo/:todoId
+## 5. Delete single todo
+### DELETE /todo/:todoId
 
 Example: delete todo :  http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
