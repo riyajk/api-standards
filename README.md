@@ -74,6 +74,11 @@ Response body:
 
 Example: Update todo :  http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
+Request body:
+
+    {
+	   "title" : "first todo with addtional changes"
+    }
 Response body:
 
     {"result":"success"}
