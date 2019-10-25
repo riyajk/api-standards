@@ -4,7 +4,7 @@
 ### API Resources
 
   - [GET /todo](#get-todo)
-  - [GET /todo/:todoId](#get single todo)
+  - [GET /todo/:todoId](#get-todoId)
   - [POST /todo](#create single todo )
   - [PUT /todo/:todoId](#update single todo )
   - [DELETE /todo/:todoId](#delete single todo )
