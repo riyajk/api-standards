@@ -33,8 +33,8 @@ Response body:
     ]
 }
 
-### 2. get single todo
-## GET /todo/:todoId
+## 2. get single todo
+### GET /todo/:todoId
 
 Example: http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
