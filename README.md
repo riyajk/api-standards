@@ -3,14 +3,8 @@
 
 ### API Resources
 
-  - [GET /todo](#get-todo)
-  - [GET /todo/:todoId](#get-todoId)
-  - [POST /todo](#create single todo )
-  - [PUT /todo/:todoId](#update single todo )
-  - [DELETE /todo/:todoId](#delete single todo )
-
-### GET /todo
-
+1. get all todo
+### GET /todo/
 Example: http://localhost:8085/todo
 
 Response body:
@@ -39,7 +33,8 @@ Response body:
     ]
 }
 
-### GET /todo/[todoId]
+2. get single todo
+### GET /todo/:todoId
 
 Example: http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
@@ -55,6 +50,7 @@ Response body:
     }
 
 
+3. create single todo
 ### POST /todo
 
 Example: Create todo :  http://localhost:8085/todo
@@ -72,7 +68,9 @@ Response body:
         "todo_id": "3a67b400-f72b-11e9-b841-331448b2d116"
        }
    }
-  ### PUT /todo
+   
+ 4. update single todo
+  ### PUT /todo/:todoId
 
 Example: Update todo :  http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
@@ -81,7 +79,8 @@ Response body:
     {"result":"success"}
 
 
-  ### DELETE /todo
+5. Delete single todo
+  ### DELETE /todo/:todoId
 
 Example: delete todo :  http://localhost:8085/todo/f55fb830-f70c-11e9-b53d-678b84536c25
 
